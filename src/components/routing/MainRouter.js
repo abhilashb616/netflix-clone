@@ -11,9 +11,12 @@ const MainRouter = () => {
   return (
     <>
       <Header />
+      <Banner />
+      <Cardcontainer />
+      <Questions />
       <Routes>
         <Route
-          path="/" exact
+          path="/"
           element={
             <>
               <Banner />
