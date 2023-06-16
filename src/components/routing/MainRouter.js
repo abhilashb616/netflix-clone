@@ -11,14 +11,21 @@ const MainRouter = () => {
   return (
     <>
       <Header />
-      <Banner />
-      <Cardcontainer />
-      <Questions />
       <Routes>
         <Route
           path="/"
           element={
-            <>
+            <> 
+              <Banner />
+              <Cardcontainer />
+              <Questions />
+            </>
+          }
+        />
+        <Route
+          path="https://abhilashb616.github.io/netflix-clone"
+          element={
+            <> 
               <Banner />
               <Cardcontainer />
               <Questions />
