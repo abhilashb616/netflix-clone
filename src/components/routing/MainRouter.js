@@ -23,7 +23,7 @@ const MainRouter = () => {
           }
         />
         <Route
-          path="https://abhilashb616.github.io/netflix-clone"
+          path="https://abhilashb616.github.io/netflix-clone/"
           element={
             <> 
               <Banner />
