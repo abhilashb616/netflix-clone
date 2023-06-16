@@ -17,7 +17,7 @@ const SignIn = () => {
             <span>Remember Me</span>
           </CheckboxContainer>
           <div>
-            <a> Need help?</a>
+            <a href="/"> Need help?</a>
           </div>
         </LoginformHelp>
         <SignupWrapper>

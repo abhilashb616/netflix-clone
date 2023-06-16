@@ -13,7 +13,7 @@ const MainRouter = () => {
       <Header />
       <Routes>
         <Route
-          path="/"
+          path="/" exact
           element={
             <>
               <Banner />
