@@ -34,7 +34,7 @@ const BannerContainer = styled.div`
   position: absolute;
   left: 75px;
   top: 100px;
-  @media screen and (max-width:600px){
+  @media screen and (max-width: 600px) {
     left: 45px;
     top: 70px;
   }
@@ -56,16 +56,16 @@ const PrimaryHeading = styled.h1`
     font-size: 2rem;
   }
   @media screen and (max-width: 640px) {
-    font-size: 1.4rem;
+    font-size: 32px;
   }
   @media screen and (max-width: 480px) {
-    font-size: .9rem;
+    font-size: 32px;
   }
   @media screen and (max-width: 360px) {
-    font-size: 0.8rem;
+    font-size: 32px;
   }
   @media screen and (max-width: 320px) {
-    font-size: 0.6rem;
+    font-size: 32px;
   }
 `;
 const SecondaryHeading = styled.h2`
@@ -119,7 +119,7 @@ const EmailInput = styled.input`
 const EmailSubmitBtn = styled.button`
   height: 45px;
   width: 150px;
-  font-size: .8rem;
+  font-size: 0.8rem;
   border-radius: 4px;
   background-color: red;
   font-weight: bold;
@@ -130,5 +130,4 @@ const EmailSubmitBtn = styled.button`
     width: 130px;
     font-size: 16px;
   }
- 
 `;
