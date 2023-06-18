@@ -13,17 +13,7 @@ const MainRouter = () => {
       <Header />
       <Routes>
         <Route
-          path="/"
-          element={
-            <> 
-              <Banner />
-              <Cardcontainer />
-              <Questions />
-            </>
-          }
-        />
-        <Route
-          path="https://abhilashb616.github.io/netflix-clone/"
+          path="/netflix-clone"
           element={
             <> 
               <Banner />

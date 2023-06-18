@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <HeaderContainer>
-      <Link to="/">
+      <Link to="/netflix-clone">
         <NetflixLogo src={logo} alt="Netflix_Logo" />
       </Link>
       <BgimgContainer></BgimgContainer>
